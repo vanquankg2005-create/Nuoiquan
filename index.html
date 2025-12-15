@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuôi Tôi - Dự Án Sinh Tồn</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1, h2, h3 {
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+        .progress {
+            background-color: #eee;
+            border-radius: 10px;
+            height: 20px;
+            margin: 10px 0;
+        }
+        .progress-bar {
+            background-color: #4caf50;
+            width: 0%; /* Cập nhật % tiến độ ở đây */
+            height: 100%;
+            border-radius: 10px;
+            text-align: center;
+            color: white;
+        }
+        .copy-btn {
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+            cursor: pointer;
+            text-align: center;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        .qr-code {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .qr-code img {
+            max-width: 300px;
+            width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+        .languages {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .languages a {
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Nuôi Tôi - Dự Án Sinh Tồn 🌱 | Feed Me Project</h1>
+
+    <div class="languages">
+        <a href="#">[NUÔI TÔI](#)</a><br><br>
+        <a href="#">🇻🇳 Tiếng Việt</a>
+        <a href="#">🇬🇧 English</a>
+        <a href="#">🇨🇳 中文</a>
+        <a href="#">🇯🇵 日本語</a>
+        <a href="#">🇰🇷 한국어</a>
+        <a href="#">🇫🇷 Français</a>
+        <a href="#">🇷🇺 Русский</a>
+        <a href="#">🇹🇭 ไทย</a>
+    </div>
+
+    <p style="text-align: center; font-size: 24px;">🔋 Cần nạp năng lượng để tồn tại</p>
+
+    <h2>HÃY NUÔI TÔI.</h2>
+    <p style="text-align: center;">Tôi hứa sao kê đầy đủ! 💯</p>
+    <p style="text-align: center; font-style: italic;">
+        "Tôi nghèo, tôi đói, nhưng tôi uy tín. Mỗi bữa ăn bạn mời, tôi sẽ ghi nhớ đến tận bữa sau."
+    </p>
+
+    <h3>💰 Số Dư Hiện Tại</h3>
+    <p style="text-align: center; font-size: 32px;">0 VND <small>(Realtime)</small></p>
+
+    <h3>🎯 Mục tiêu tháng này</h3>
+    <p style="text-align: center; font-size: 32px;">1.000.000 VND</p>
+    <div class="progress">
+        <div class="progress-bar">0%</div>
+    </div>
+    <p style="text-align: center;">Sắp đủ tiền đóng học lại rồi...</p>
+
+    <h2>Tôi Sẽ Dùng Tiền Vào Đâu?</h2>
+    <ul>
+        <li>Đóng tiền học lại: <strong>50%</strong> (Ưu tiên số 1)</li>
+        <li>Sữa Milo & Kẹo: <strong>30%</strong></li>
+        <li>Bim bim (Snack): <strong>20%</strong></li>
+    </ul>
+
+    <h2>Sao Kê Realtime</h2>
+    <p style="text-align: center;">Live</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Thời gian</th>
+                <th>Người chuyển/Nhận</th>
+                <th>Số tiền</th>
+                <th>Nội dung</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="4">Chưa có giao dịch nào</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>CỔNG TIẾP TẾ LƯƠNG THỰC</h2>
+    <p style="text-align: center;">Mỗi đóng góp của bạn là một bát cơm (hoặc gói mì) cho tôi.</p>
+
+    <div style="text-align: center; background-color: #e9f7ef; padding: 20px; border-radius: 10px;">
+        <h3>MB BANK</h3>
+        <p>❤️ 2.000đ cũng nhận ạ</p>
+        <p><strong>Số Tài Khoản:</strong> 0802.2603.2007</p>
+        <p><strong>Chủ Tài Khoản:</strong> NGUYEN BA DAI</p>
+        
+        <!-- QR Code được thêm ở đây -->
+        <div class="qr-code">
+            <img src="https://files.catbox.moe/0b2b0j.png" alt="QR Code chuyển khoản MB Bank">
+            <p><small>Quét mã bằng app ngân hàng nào cũng được ạ!</small></p>
+        </div>
+        
+        <p>Tôi hứa sẽ không mua ô tô bằng tiền donate. Vì... tôi chưa có bằng lái!</p>
+        
+        <div class="copy-btn" onclick="navigator.clipboard.writeText('080226032007')">Copy số tài khoản</div>
+    </div>
+
+    <h4>Thông báo mới</h4>
+    <p>Vừa xong</p>
+    <p>Nội dung thông báo...</p>
+
+    <script>
+        document.querySelector('.copy-btn').addEventListener('click', function() {
+            alert('Đã copy số tài khoản: 080226032007');
+        });
+        
+        // Cập nhật progress bar (ví dụ: thay 0 bằng % thực tế)
+        // document.querySelector('.progress-bar').style.width = '22.3%';
+        // document.querySelector('.progress-bar').innerText = '22.3%';
+    </script>
+
+</body>
+</html>
